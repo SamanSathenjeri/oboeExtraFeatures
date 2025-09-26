@@ -1,6 +1,6 @@
 # Concept Features: OBOE - AI-powered learning platform 
 
-**Oboe is an AI-powered learning platform designed to create personalized, "bite-size" educational courses instantly from a simple text prompt.**
+Oboe is an AI-powered learning platform designed to create personalized, "bite-size" educational courses instantly from a simple text prompt.
 
 Developed by the co-founders of the **podcasting tool Anchor**, Oboe aims to democratize learning by allowing users to quickly generate a structured learning experience on virtually any topic. The platform tailors the content to be lightweight, engaging, and flexible, offering multiple formats like deep-dive articles, audio lectures (including a "podcast" style), visual content, quizzes, and interactive games.
 
@@ -23,12 +23,16 @@ https://github.com/charmbracelet/vhs -->
 ### 🫵 Usage
 
 - How to get this app?
-> git clone https://github.com/SamanSathenjeri/oboeExtraFeatures.git
-> cd oboeExtraFeatures.git
-Remember to make a python environment and install the dependencies
+```sh
+git clone https://github.com/SamanSathenjeri/oboeExtraFeatures.git
+cd oboeExtraFeatures.git
+# Remember to make a python environment and install the dependencies
+```
 
 - How to install dependencies?
-> pip install -r requirements.txt
+```sh
+pip install -r requirements.txt
+```
 
 - Generate Gemini API Key:
 1) Go to https://aistudio.google.com/api-keys
@@ -38,4 +42,6 @@ Remember to make a python environment and install the dependencies
 5) write in GEMINI_API_KEY = [Paste your API KEY here!]
 
 - How to run app:
-> streamlit run app.py
+```sh
+streamlit run app.py
+```
