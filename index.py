@@ -70,12 +70,20 @@ def brainMap(text):
             1.  **Enclose the entire output in a `digraph G { ... }` block.**
             2.  **Set the graph direction to Left-To-Right (`rankdir=LR;`).**
             3.  **Use clear, descriptive labels for all nodes.**
+            4.  **Make sure to wrap the whole output (including the digraph G{ ... }) with ```dot and ```, like this 
+                ```dot
+                digraph G {
+                    rankdir=LR;
+
+                    ...
+                }
+                ```.**
 
             Here is the course material: """ + text
     return llmCall(text)
 
 def eli5(text):
-    text = """Can you please look at the following information from a course and can you explain the concept like I am a 5 year old? 
+    text = """Can you please look at the following information from a course and can you explain the concept in a simple way? 
                 Please use **simple words** and **common, everyday analogies** to explain the concept.
                 Make the tone **fun, engaging, and non-intimidating**.
 

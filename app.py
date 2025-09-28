@@ -29,16 +29,7 @@ if myInput and isValidURL(myInput):
             graphs = pydot.graph_from_dot_data(content)
             graph = graphs[0]
             svg_data = graph.create_svg().decode("utf-8")
-            st.markdown(
-                f"""
-                <div style="height:700px; width:675px; overflow-y:scroll; overflow-x:scroll; border:1px solid #ddd; text-align:center;">
-                    {svg_data}
-                """,
-                unsafe_allow_html=True,
-            )
-
-            with st.expander("🔍 View full graph"):
-                st.image(svg_data, width="stretch")
+            st.image(svg_data, width="stretch")
     elif option == "Mind Map":
         with st.container(border=True, width="stretch", height="stretch", horizontal=True, horizontal_alignment="center", vertical_alignment="center"):
             content = brainMap(myText)
@@ -47,16 +38,7 @@ if myInput and isValidURL(myInput):
             graphs = pydot.graph_from_dot_data(content)
             graph = graphs[0]
             svg_data = graph.create_svg().decode("utf-8")
-            st.markdown(
-                f"""
-                <div style="height:700px; width:675px; overflow-y:scroll; overflow-x:scroll; border:1px solid #ddd; text-align:center;">
-                    {svg_data}
-                """,
-                unsafe_allow_html=True,
-            )
-
-            with st.expander("🔍 View full graph"):
-                st.image(svg_data, width="stretch")
+            st.image(svg_data, width="stretch")
     elif option == "ELI5":
         with st.container(border=True, width="stretch", height="stretch", horizontal=True, horizontal_alignment="center", vertical_alignment="center"):
             st.write(eli5(myText))
