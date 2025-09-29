@@ -6,6 +6,9 @@ Developed by the co-founders of the **podcasting tool Anchor**, Oboe aims to dem
 
 I took this concept and added a few more features that is scientifically proven to help you learn concepts faster. Using different techniques, learners can understand and digest information better and quicker. These features are **mermaid maps, mind maps, ELI5, and active recall**. With these features, plus Oboe's marvelous course + testing, you can learn anything you want. **Feel free to try!**
 
+--
+
+Check out this demo video! (click on the thumbnail)
 [![Demo Video](https://img.youtube.com/vi/5OWN4DawjU8/maxresdefault.jpg)](https://www.youtube.com/watch?v=5OWN4DawjU8)
 
 ---
